@@ -1,0 +1,815 @@
+@charset "utf-8";
+
+
+
+/* Backgrounds */
+
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+
+.home {
+      background: url(../imgs/bemvindo.png) no-repeat center center;
+      width: 100%;
+      height: 100%;
+}
+
+.page-id-24 {
+      background: url(../imgs/sobremim.png) no-repeat center center;
+      width: 100%;
+      height: 100%;
+}
+
+.page-id-35 {
+      background: url(../imgs/contactos.png) no-repeat center center;
+      width: 100%;
+      height: 100%;
+}
+
+.single-post, .page-id-67 {
+      background: url(../imgs/portfolio.png) no-repeat center center;
+      width: 100%;
+      height: 100%;
+}
+
+/* Gerais */
+
+a {
+      color: #423E4F;
+      text-decoration: none;
+}
+
+a:focus, a:visited {
+      color: #423E4F;
+      text-decoration: none;
+}
+
+a:hover {
+      color: #423E4F;
+      text-decoration: underline;
+}
+
+.colverde {
+      color: #05FFB0;
+}
+
+.colazul {
+      color: #423E4F;
+}
+
+
+/* Headings */
+
+html {
+      font-size: 14px;
+}
+
+p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.429rem;
+      font-weight: 200;
+      line-height: 2rem;
+
+}
+
+h1 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 5rem;
+      font-weight: 600;
+      line-height: 1em;
+
+}
+
+h2 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2.5rem;
+      line-height: 3rem;
+
+}
+
+h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 2rem;
+      font-weight: 200;
+      line-height: 2.5rem;
+}
+
+h4 {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.143rem;
+      font-weight: 200;
+      line-height: 2rem;
+
+}
+
+p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.429rem;
+      font-weight: 200;
+      line-height: 2rem;
+      margin-top: 20px;
+
+}
+
+
+
+
+
+/*
+--------------------------
+HOME
+--------------------------
+*/
+
+/* Navigation */
+#tf-menu {
+      height: 50px;
+      padding: 20px;
+      transition: all 0.8s;
+}
+#tf-menu.navbar-default {
+      background-color: rgba(248, 248, 248, 0);
+      border-color: rgba(231, 231, 231, 0);
+}
+#tf-menu a.navbar-brand {
+      text-transform: uppercase;
+      font-size: 22px;
+      color: #423E4F;
+      font-weight: 900;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a {
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      color: #423E4F;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      line-height: 10px;
+}
+
+#tf-menu.navbar-default .navbar-nav > li > a:hover {
+      font-weight: 700;
+      color: #05FFB0;
+}
+.on {
+      background-color: #222222 !important;
+      padding: 0 !important;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+      color: #05FFB0 !important;
+      background-color: transparent;
+      font-weight: 700;
+}
+
+.navbar-toggle {
+      border-radius: 3px;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+      background-color: #05FFB0;
+      border-color: #423E4F;
+      font-weight: 700;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+      background-color: #423E4F;
+}
+
+
+#bs-example-navbar-collapse-1 {
+      border: none;
+      margin-top: 20px;
+      text-align: right;
+}
+
+.size_heading {
+      font-size: 6.071rem;
+}
+
+/* HOME BEM-VINDO */
+
+.bemvindo {
+      margin-top: 150px;
+}
+
+.bemvindo h1 {
+      font-size: 6.071rem;
+}
+
+.bemvindo a {
+      color: #332F3E;
+}
+.bemvindo a:hover, a:visited, a:focus {
+      color: #332F3E;
+}
+
+/* HOME PORTFOLIO */
+
+#portfolio {
+      margin-top: 100px;
+}
+
+#botaogostou a {
+      text-decoration: none;
+}
+
+.btn h4 {
+      padding: 10px 16px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+      text-align: center;
+}
+
+.btn-primary {
+      margin-top: 30px;
+      color: #332F3E;
+      background-color: #fff;
+      border-color: #05FFB0;
+}
+
+.btn-lg {
+      padding: 10px 16px;
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 200;
+      line-height: 2rem;
+      border-radius: 0px;
+      height: 90px;
+}
+
+.btn-primary:focus {
+      color: #332e3d;
+      background-color: #05ffb0;
+      border-color: #332e3d;
+}
+
+.btn-primary:hover {
+      color: #332e3d;
+      background-color: #05ffb0;
+      border-color: #332e3d;
+}
+
+.btn-primary:hover:active {
+      color: #332F3E;
+      background-color: #fff;
+      border-color: #05FFB0;
+}
+
+.btn-primary:active {
+      color: #332e3d;
+      background-color: #05ffb0;
+      border-color: #332e3d;
+}
+
+.entry-header img {
+      height: 220px;
+      padding-bottom: 20px;
+}
+.content_card {
+      padding-left: 20px;
+      text-align: left;
+}
+
+.content_card h4 {
+      margin: 0px;
+      padding: 0px;
+}
+
+.content_card h4 ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+}
+
+.content_card h3 {
+      margin: 0px;
+      font-weight: 500;
+}
+
+.content_card a {
+      color: #332e3d;
+}
+
+.content_card a:visited a:hover {
+      color: #332e3d;
+}
+
+.singles {
+      margin-top: 200px;
+}
+
+.single_center {
+      text-align: center;
+}
+
+.single_center h4 {
+      margin: 0px;
+      padding: 0px;
+}
+
+.single_center h4 ul {
+      list-style: none;
+      margin: 0px;
+      padding: 0px;
+}
+
+.single_center a:visited {
+      color: #332e3d;
+}
+
+.single_center h1 {
+      font-size: 6.071rem;
+      line-height: 0px;
+      color: #05FFB0;
+      margin-bottom: 100px;
+}
+
+.content_justify {
+      text-align: justify;
+}
+
+.back_page {
+      width: 60px;
+      height: 60px;
+      color: #05FFB0;
+      margin: auto auto;
+}
+
+.back_page:hover {
+      background-color: #f3f3f3;
+      border-radius: 50%;
+}
+
+.back_page a {
+      color: #332e3d;
+
+}
+
+.back_page .fa-long-arrow-left {
+      margin-top: 15px;
+}
+
+.hentry_posts a:visited {
+      color: #332e3d;
+}
+
+/* FOOTER */
+
+footer {
+      position: absolute;
+      margin-top: 200px;
+      width: 100%;
+      height: 251px;
+      background-color: #05FFB0;
+}
+
+footer h2 {
+      margin-top: 50px;
+      font-size: 2.9rem;
+      font-weight: 700;
+      text-align: center;
+}
+
+footer h2 a:visited {
+      color: #332F3E;
+      text-decoration: none;
+}
+
+footer h4 {
+      text-align: center;
+}
+
+footer h4 a:visited {
+      color: #332F3E;
+      text-decoration: none;
+}
+
+.social-icons {
+      text-align: center;
+}
+
+.social-icons a {
+      padding: 5px;
+}
+
+.social-icons a:visited {
+      color: #332e3d;
+}
+
+.ola {
+      position: absolute;
+      bottom: -250px;
+      right: 0px;
+}
+
+.site-footer a {
+      color: #332F3E;
+}
+
+.site-footer a:hover, a:visited, a:focus {
+      color: #332F3E;
+}
+
+/* SOBRE MIM */
+
+
+.progress {
+      border: 3px solid #332e3d;
+      height: 30px;
+      background-color: #fff;
+
+}
+
+.progress-bar {
+      background-color: #05ffb0;
+}
+
+/* CONTACTOS */
+
+.form-area {
+      background-color: #05FFB0;
+      padding: 10px 30px 30px;
+      margin: 10px 0px 20px;
+      border-radius: 25px;
+}
+
+.form-area h2 {
+      font-size: 2.9rem;
+      font-weight: 700;
+      text-align: center;
+}
+
+.form-area p {
+      font-family: 'Raleway', sans-serif;
+      font-size: 1.143rem;
+      font-weight: 200;
+      line-height: 2rem;
+}
+
+
+.form-area .btn-primary {
+      height: 50px;
+      margin-top: 30px;
+      color: #05ffb0;
+      background-color: #332e3d;
+      border-color: #332e3d;
+      border-radius: 10px;
+
+}
+
+.form-area .btn-primary:focus {
+      color: #332e3d;
+      background-color: #fff;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+.form-area .btn-primary:hover {
+      color: #332e3d;
+      background-color: #fff;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+.form-area .btn-primary:hover:active {
+      color: #332e3d;
+      background-color: #fff;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+.form-area .btn-primary:active {
+      color: #332e3d;
+      background-color: #05ffb0;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+#map {
+      height: 50%;
+}
+
+.wpcf7 {
+      text-align: center;
+}
+
+.wpcf7 p label {
+      font-size: 1.143rem;
+      font-weight: 200;
+      line-height: 2rem;
+      margin-bottom: 1px;
+}
+
+.wpcf7 label {
+      text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+      color: #332e3d;
+      border: 1px solid #332e3d;
+      border-radius: 3px;
+      padding: 10px;
+}
+
+textarea {
+      height: 100px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+      height: 50px;
+      width: 200px;
+      font-size: 1.143rem;
+      color: #332e3d;
+      background-color: inherit;
+      border-color: #332e3d;
+      border-radius: 10px;
+
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+      color: #332e3d;
+      background-color: #fff;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+      color: #332e3d;
+      background-color: #fff;
+      border-color: #332e3d;
+      border-radius: 10px;
+}
+
+/* Makes two columns */
+.ms-item {
+      width: 50%;
+}
+
+/* Makes three columns */
+.ms-item {
+      width: 33%;
+}
+
+/* Makes four columns */
+.ms-item {
+      width: 25%;
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/*
+
+Custom, iPhone Retina
+
+
+*/
+
+@media only screen and (min-width : 320px) {
+
+
+      h1  {
+            font-size: 3.571rem;
+      }
+
+      .size_heading {
+            font-size: 3.571rem;
+      }
+
+      .texteffect {
+            position: absolute;
+            bottom: 0px;
+            left: 50px;
+      }
+
+      .margin10 {
+            margin: 10px;
+      }
+
+      .sobremim {
+            padding-top: 20%;
+      }
+
+      .paddingtop0 {
+            padding-top: 10%;
+      }
+
+
+      .paddingtop1 {
+            padding-top: 10%;
+      }
+
+      .paddingtop2 {
+            padding-top: 10%;
+      }
+
+      .paddingtop3 {
+            padding-top: 10%;
+      }
+
+      .paddingtop2 {
+            padding-bottom: 10%;
+      }
+
+}
+/*
+
+Extra Small Devices, Phones
+
+*/
+
+@media only screen and (min-width : 480px) {
+
+
+
+
+      .margin10 {
+            margin: 10px;
+      }
+
+}
+
+
+/*
+
+Small Devices, Tablets
+
+*/
+
+@media only screen and (min-width : 768px) {
+
+      .texteffect {
+            position: relative;
+            left: 100px;
+      }
+
+      .btn h4 {
+            font-size: 1.2rem;
+      }
+
+      .margin10 {
+            margin: 10px;
+      }
+
+      .margin-60 {
+            margin-top: -60%;
+      }
+
+      .margin-70 {
+            margin-top: -70%;
+      }
+
+
+
+      .margin-10 {
+
+            margin-top: -10%;
+
+      }
+
+      .paddingtop0 {
+            padding-top: 0%;
+      }
+
+
+      .paddingtop1 {
+            padding-top: 10%;
+      }
+
+      .paddingtop2 {
+            padding-top: 20%;
+      }
+
+      .paddingtop3 {
+            padding-top: 30%;
+      }
+
+      .paddingtop2 {
+            padding-bottom: 0%;
+      }
+
+      .paddingtop0 {
+            padding-top: 0%;
+      }
+
+
+      .paddingtop1 {
+            padding-top: 10%;
+      }
+
+      .paddingtop2 {
+            padding-top: 20%;
+      }
+
+
+}
+
+
+/*
+
+Large Devices, Wide Screens
+
+*/
+
+
+@media only screen and (min-width : 992px) {
+
+      .size_heading h1 {
+            font-size: 6.071rem;
+      }
+
+      .btn h4 {
+            font-size: 1.4rem;
+      }
+
+      .texteffect {
+            position: relative;
+            left: -100px;
+      }
+
+      .portfolio {
+            margin-top: 200px;
+      }
+
+      .margin10 {
+            margin: 10px;
+      }
+
+      .margin-60 {
+            margin-top: -60%;
+      }
+
+      .margin-70 {
+            margin-top: -70%;
+      }
+
+
+
+      .margin-10 {
+
+            margin-top: -10%;
+
+      }
+
+      .paddingtop0 {
+            padding-top: 0%;
+      }
+
+
+      .paddingtop1 {
+            padding-top: 10%;
+      }
+
+      .paddingtop2 {
+            padding-top: 20%;
+      }
+
+      .paddingtop3 {
+            padding-top: 30%;
+      }
+
+
+      /* Sobre Mim */
+
+      .texteffect-sobre {
+            position: absolute;
+            left: 50px;
+            bottom: -50px;
+      }
+
+      .sobremim {
+            padding-top: 0%;
+      }
+}
