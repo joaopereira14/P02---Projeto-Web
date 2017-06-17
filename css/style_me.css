@@ -193,7 +193,7 @@ HOME
 /* HOME BEM-VINDO */
 
 .bemvindo {
-      margin-top: 150px;
+      margin-top: 250px;
 }
 
 .bemvindo h1 {
@@ -267,7 +267,8 @@ HOME
 }
 
 .entry-header img {
-      height: 220px;
+      height: 100%;
+      width: 100%;
       padding-bottom: 20px;
 }
 .content_card {
@@ -355,6 +356,10 @@ HOME
 }
 
 .hentry_posts a:visited {
+      color: #332e3d;
+}
+
+.entry-header h4 a {
       color: #332e3d;
 }
 
@@ -529,6 +534,7 @@ textarea {
       border: 1px solid #332e3d;
       border-radius: 3px;
       padding: 10px;
+      width: 100%;
 }
 
 textarea {
@@ -540,7 +546,7 @@ input[type="button"],
 input[type="reset"],
 input[type="submit"] {
       height: 50px;
-      width: 200px;
+      width: 70%;
       font-size: 1.143rem;
       color: #332e3d;
       background-color: inherit;
@@ -588,6 +594,10 @@ input[type="submit"]:active {
       width: 25%;
 }
 
+.your-name .your-email .telefone {
+      width: 100%;
+}
+
 /*==========  Mobile First Method  ==========*/
 
 /*
@@ -600,12 +610,12 @@ Custom, iPhone Retina
 @media only screen and (min-width : 320px) {
 
 
-      h1  {
+      .bemvindo h1  {
             font-size: 3.571rem;
       }
 
       .size_heading {
-            font-size: 3.571rem;
+            font-size: 2.571rem;
       }
 
       .texteffect {
@@ -643,6 +653,18 @@ Custom, iPhone Retina
             padding-bottom: 10%;
       }
 
+      .main-navigation {
+      	clear: both;
+      	display: block;
+      	float: right;
+      	position: absolute;
+      	top: 60px;
+      	right: 0px;
+      }
+
+      .main-navigation li {
+            float: right;
+      }
 }
 /*
 
@@ -652,7 +674,9 @@ Extra Small Devices, Phones
 
 @media only screen and (min-width : 480px) {
 
-
+      .main-navigation li {
+            float: right;
+      }
 
 
       .margin10 {
@@ -669,6 +693,10 @@ Small Devices, Tablets
 */
 
 @media only screen and (min-width : 768px) {
+
+      .main-navigation li {
+            float: left;
+      }
 
       .texteffect {
             position: relative;
@@ -733,6 +761,15 @@ Small Devices, Tablets
             padding-top: 20%;
       }
 
+      .main-navigation {
+      	clear: both;
+      	display: block;
+      	float: right;
+      	position: inherit;
+      	top: 60px;
+      	right: 0px;
+      }
+
 
 }
 
@@ -745,6 +782,15 @@ Large Devices, Wide Screens
 
 
 @media only screen and (min-width : 992px) {
+
+      .main-navigation li {
+            float: left;
+      }
+
+
+      .bemvindo h1 {
+            font-size: 6.071rem;
+      }
 
       .size_heading h1 {
             font-size: 6.071rem;
@@ -812,4 +858,6 @@ Large Devices, Wide Screens
       .sobremim {
             padding-top: 0%;
       }
+
+
 }

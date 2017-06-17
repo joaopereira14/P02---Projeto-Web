@@ -140,6 +140,8 @@ if ( ! function_exists( 'wp_theme_setup' ) ) :
 
 		add_action( 'pre_get_posts', 'posts_on_homepage' );
 
+	
+
 		/**
 		* Custom template tags for this theme.
 		*/

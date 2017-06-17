@@ -37,7 +37,7 @@ get_header(); ?>
 			</div>
 		</div>
 
-		<div class="col-xs-12 col-md-12" style="margin-top: 50px">
+		<div class="col-xs-12 col-sm-12" style="margin-top: 50px">
 			<div class="row">
 
 
@@ -58,10 +58,8 @@ get_header(); ?>
 				while ( have_posts() ) : the_post(); ?>
 
 
-				<div class="col-md-4 col-md-12">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<div class="hentry_posts">
-
-
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<a href="<?php echo esc_url( get_permalink() ) ?>" rel="bookmark">
 								<header class="entry-header">

@@ -20,8 +20,8 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post() ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-		<div class="col-md-12 bemvindo">
-			<div class="col-md-offset-1 col-md-5">
+		<div class="bemvindo">
+			<div class="col-xs-offset-0 col-md-offset-1  col-md-5">
 				<div class="form-area" style="margin-bottom:100px">
 					<form>
 						<br style="clear:both">
@@ -35,7 +35,7 @@ get_header(); ?>
 
 
 			<div class="col-md-6">
-						<div class="col-xs-8 col-sm-6 col-md-6 sobremim">
+						<div class="col-xs-12 col-sm-6 col-md-6 sobremim">
 							<img src="<?php bloginfo('stylesheet_directory'); ?>/imgs/linha_portfolio.svg" class="img-responsive hvr-grow" alt="Linha Portfolio">
 							<header class="entry-header">
 
